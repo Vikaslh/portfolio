@@ -4,6 +4,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "React",
+    "Next.js",
     "HTML",
     "CSS",
     "TailwindCSS",

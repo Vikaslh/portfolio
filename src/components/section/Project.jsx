@@ -120,12 +120,39 @@ export const Project = () => {
                 </a>
               </div>
             </div>
-          </div>
 
-          <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">Chrome extension for leetcode solving </h3>
+            {/* Project 5: Converso AI */}
+            <div className="glass p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)] transition-all">
+              <h3 className="text-xl font-bold mb-2">Converso AI</h3>
               <p className="text-gray-400 mb-4">
-                AI-powered tool for help people solving leetcode problems 
+                An AI-powered learning companion with real-time voice lessons, user authentication, and subscriptions.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {["Next.js", "Vapi", "Clerk", "Supabase", "Tailwind"].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:-translate-y-0.5 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="#" // Replace with your actual project link
+                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  target="_blank"
+                >
+                  View Project →
+                </a>
+              </div>
+            </div>
+
+            {/* Project 6: Leetcode Helper */}
+            <div className="glass p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
+              <h3 className="text-xl font-bold mb-2">Leetcode Helper</h3>
+              <p className="text-gray-400 mb-4">
+                AI-powered Chrome extension to help people solve Leetcode problems efficiently.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["React", "Openai", "Typescript", "Tailwind CSS"].map((tech, key) => (
@@ -139,7 +166,7 @@ export const Project = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="https://github.com/Vikaslh/mental-health-app"
+                  href="https://github.com/Vikaslh/leetcode-helper"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                   target="_blank"
                 >
@@ -149,6 +176,9 @@ export const Project = () => {
             </div>
 
             
+          </div>
+          
+
         </div>
         </RevealOnScroll>
     </section>
