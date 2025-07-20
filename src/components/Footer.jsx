@@ -8,7 +8,7 @@ export const Footer = () => (
       </span>
       <div className="flex gap-4 justify-center">
         <a
-          href="/resume.pdf"
+          href="https://drive.google.com/file/d/1MZ7hRp3dYiNiBtb7aVhmPQCUCcWuguQk/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-blue-400 transition"

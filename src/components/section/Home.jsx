@@ -34,7 +34,7 @@ export const Home = () => {
               Contact Me
             </a>
             <a
-              href="https://drive.google.com/file/d/1r3NpI5EpTU1SSTgTQcIaWd1bUlXOVxLu/view?usp=sharing"
+              href="https://drive.google.com/file/d/1MZ7hRp3dYiNiBtb7aVhmPQCUCcWuguQk/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-800 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-gray-900"
